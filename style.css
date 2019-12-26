@@ -1,0 +1,19 @@
+a[href^="https://www.google.com/"] {
+	color: green;
+}
+a[href*="link"] {
+	color: red;
+}
+#second-div p:nth-child(even) {
+	background: red;
+}
+#second-div p:nth-child(odd) {
+	background: blue;
+}
+#first-div > p::after {
+	content: " -NEW";
+	color: yellow;
+}
+body > p:last-of-type:hover {
+	font-style: italic;
+}
